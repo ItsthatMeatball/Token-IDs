@@ -20,6 +20,8 @@ messages:
       calls for an explanation, include one; otherwise, just provide the plain
       answer. Do not ask follow up questions. Answer the question fully and
       directly. Do not ask any follow-up or conversational questions.
+  - role: user
+    content: '[INSERT PROMPT HERE]'
 model: openai/gpt-4o-mini
 modelParameters:
   temperature: 0.79
